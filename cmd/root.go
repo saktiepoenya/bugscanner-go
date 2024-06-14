@@ -42,7 +42,7 @@ var (
 	colorW1 = color.New(color.FgWhite, color.Bold)
 	colorG1 = color.New(color.FgGreen, color.Bold)
 	colorL1 = color.New(color.FgBlue, color.Bold)
-	colorM1 = color.New(color.FgMagenta, color.Bold)
+	colorM1 = color.New(color.FgRed, color.Bold)
 	colorC1 = color.New(color.FgCyan, color.Bold)
 	colorY1 = color.New(color.FgYellow, color.Bold)
 )
