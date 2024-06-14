@@ -20,6 +20,6 @@ jobs:
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2.8.1
         with:
-          args: release --clean
+          args: release --rm-dist ${{ inputs.goreleaser-release-args }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
