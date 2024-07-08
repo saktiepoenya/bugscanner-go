@@ -17,7 +17,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// scanDirectCmd represents the scanDirect command
+// scanDirectCmd represents the scanDirect commands
 var scanDirectCmd = &cobra.Command{
 	Use:   "direct",
 	Short: "Scan using direct connection",
