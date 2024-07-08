@@ -115,9 +115,9 @@ func scanDirect(c *queuescanner.Ctx, p *queuescanner.QueueScannerScanParams) {
 				resColor = colorG1
 			case "akamaighost":
 				resColor = colorY1
-			case "Varnish":
+			case "varnish":
 				resColor = colorR1
-			case "Fastly":
+			case "fastly":
 				resColor = colorR1
 			case "amazons3":
 				resColor = colorL1
